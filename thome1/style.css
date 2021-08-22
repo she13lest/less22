@@ -14,8 +14,7 @@ body {
 
 .header {
   height: 3em;
-  padding-left: 1em;
-  padding-right: 1em;
+  padding: 1em;
   background-color: #eee;
   display: flex;
 }
