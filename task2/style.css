@@ -2,11 +2,16 @@
   box-sizing: border-box;
 }
 
+
+  
+
 .navigation {
   display: flex;
   background-color: #ff7f50;
   min-height: 200px;
   flex-grow: 1;
+  justify-content: center;
+ align-items: center;
 }
 
 .product-list {
@@ -14,6 +19,8 @@
   background-color: #006400;
   min-height: 200px;
   flex-grow: 1;
+  justify-content: center;
+ align-items: center;
 }
 
 .news {
@@ -21,6 +28,8 @@
   background-color: #0ff;
   min-height: 200px;
   flex-grow: 1;
+  justify-content: center;
+ align-items: center;
 }
 
 span {
@@ -29,8 +38,9 @@ span {
   padding: 8px;
   background-color: #faebd7;
   border-radius: 4px;
-  margin: auto;
-  display: block;
+ position: absolute;
+ 
+
 }
 
 @media screen and (min-width: 600px), (max-width: 900px) {
